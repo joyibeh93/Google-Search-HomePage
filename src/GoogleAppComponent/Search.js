@@ -9,9 +9,12 @@ function Search(){
             <div className="search-section">
                 <GoogleLogo/>
                 <InputBox/>
-                <MenuItem name='Google Search'/>
-                <MenuItem name='I am feeling lucky'/>
-                <p> Google lang: <strong>Igbo</strong><strong>Yoruba</strong><strong>English</strong></p>
+                <div className=" app-header app-headers">
+                    <MenuItem name='Google Search' className="app"/>
+                    <MenuItem name='I am feeling lucky'/>
+                </div>
+                
+                <p className="msg"> Google offered in: <strong>Hausa</strong> <strong>Igbo</strong><strong> Ede Yoruba </strong> <strong>Nigerian Pidgin</strong></p>
                     
             </div>
             

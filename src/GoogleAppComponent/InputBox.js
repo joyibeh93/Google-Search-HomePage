@@ -1,8 +1,11 @@
+import React,{useState} from "react";
+
 const InputBox = () =>{
+    const [message,setMessage]=useState("")
     return (
         <>
         <form>
-            <input type="text" placeholder="enter a word" style={{padding:"10px 100px",borderRadius:"15px"}}/>
+            <input type="text" s className="inputBox"/>
         </form>
            
         </>

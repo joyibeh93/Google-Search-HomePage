@@ -5,6 +5,17 @@
     /* margin: 8px 20px; */
     gap: 8px;
 }
+.Avater{
+    height:40px;
+    width:40px;
+    border-radius:50px;
+    margin:10px 5px;
+    border: 1px solid #000;
+}
+.appLauncher{
+    height:20px; 
+     margin:15px 5px;
+}
 
 /* STYLING THE SEARCH SECTION */
 .search-section{
@@ -13,4 +24,45 @@
     justify-content: center;
     align-content: center;
 
+}
+.googleimg{
+    width:400px;
+    display: block;
+    margin: 80px auto 0px auto;
+}
+ 
+.inputBox{
+    padding:15px 150px;
+    border-radius:15px;
+    display: block;
+    margin: 10px auto;
+}
+.app-headers{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(223, 230, 230, 0.048);
+}
+.msg{
+    text-align: center;
+}
+
+/* STYLING FOOTER */
+.footer{
+    margin-top: 150px;
+    background-color:darkgrey;
+}
+.country{
+    margin: 0px 47px;
+  
+}
+
+.footerStyle{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.listStyle li{
+    display: inline;
+    padding: 0px 10px;
+    list-style: none;
 }

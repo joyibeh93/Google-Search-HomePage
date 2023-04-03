@@ -1,8 +1,13 @@
+import Footerbtn from "./Footerbtn";
+import "../style/styles.css"
+
+
 const Footer = ()=>{
     return(
-        <>
-        <h1>This is the Footer</h1>
-        </>
+        <div className="footer">
+            <p className="country">Nigeria</p>
+             <Footerbtn/>
+        </div>
     )
 }
 

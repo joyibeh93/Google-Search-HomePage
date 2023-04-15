@@ -4,14 +4,14 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Countries from './practice';
-import GoodleApp from './GoogleAppComponent/googleApp';
+import GoogleApp from './GoogleAppComponent/googleApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Countries/> */}
-    <GoodleApp/>
+    <GoogleApp/>
   </React.StrictMode>
 );
 

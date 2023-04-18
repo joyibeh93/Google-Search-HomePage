@@ -42,6 +42,9 @@
     padding: 10px;
     background-color: rgba(223, 230, 230, 0.048);
 }
+.center{
+    text-align: center;
+}
 .msg{
     text-align: center;
 }
